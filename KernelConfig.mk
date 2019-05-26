@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(BUILD_KERNEL),false)
+ifneq ($(BUILD_KERNEL),true)
 
 LOCAL_KERNEL := $(KERNEL_PATH)/common-kernel/kernel-dtb-$(TARGET_DEVICE)
 
