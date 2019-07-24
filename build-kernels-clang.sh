@@ -6,6 +6,7 @@ export KERNEL_TMP=$ANDROID_ROOT/out/kernel-tmp
 # Cross Compiler
 export GCC_CC=../../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export CLANG_CC=../../prebuilts/clang/host/linux-x86/clang-4691093/bin/clang
+export CROSS_COMPILE_ARM32=../../prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 
 # Mkdtimg tool
 export MKDTIMG=$ANDROID_ROOT/out/host/linux-x86/bin/mkdtimg
